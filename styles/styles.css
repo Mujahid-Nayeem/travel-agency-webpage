@@ -1,0 +1,134 @@
+/* Mulish font from google */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+/* shared Styles */
+* {
+    font-family: "Mulish", sans-serif;
+}
+
+.btn-primary {
+    width: 174px;
+    padding: 14px 35px;
+    border-radius: 8px;
+    background: #ff5400;
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+/* nav section */
+header {
+    padding: 50px 130px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-img-title {
+    display: flex;
+    align-items: center;
+}
+
+#nav-icon {
+    width: 50px;
+    height: 56px;
+}
+
+.nav-title {
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.nav-items {
+    display: flex;
+}
+
+#home,
+#travel {
+    color: #ff5400;
+}
+
+nav>ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    font-size: 18px;
+    font-weight: 400;
+    margin-right: 40px;
+}
+
+nav li>a {
+    text-decoration: none;
+    color: #424247;
+
+}
+
+/* banner section */
+
+.banner-content {
+    text-align: center;
+    max-width: 1170px;
+    height: 500px;
+    border-radius: 16px;
+    padding: 140px 135px;
+    background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+
+}
+
+.banner-title {
+    font-size: 64px;
+    font-weight: 800;
+    color: #ffffff;
+}
+
+.banner-description {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    padding: 24px 240px 50px;
+}
+
+.input-info {
+    width: 800px;
+    height: 84px;
+    border-radius: 8px;
+    background: #ffffff4d;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 16px;
+
+}
+
+.banner-input {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    backgrou#ffffff255);
+}
+
+/* Popular Tours Section */
+
+.popular-tours-section {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    padding: 100px;
+}
+.popular-tours-container{
+    width: 577px;
+    height: 466px;
+    border: 100px 20px;
+}
+
+.popular-tours-description {
+   
+}
